@@ -1,0 +1,33 @@
+Thu May 22 08:04:54 2025    profiling_original.prof
+
+         109623 function calls in 53.473 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   53.473   53.473 {built-in method builtins.exec}
+        1    0.000    0.000   53.473   53.473 <string>:1(<module>)
+        1    0.053    0.053   53.473   53.473 <ipython-input-7-8476ee5fa314>:2(ejecutar_codigo_original)
+   100000   53.416    0.001   53.416    0.001 <ipython-input-7-8476ee5fa314>:5(es_primo)
+     9592    0.003    0.000    0.003    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        2    0.000    0.000    0.000    0.000 iostream.py:526(write)
+        2    0.000    0.000    0.000    0.000 iostream.py:456(_schedule_flush)
+        1    0.000    0.000    0.000    0.000 iostream.py:202(schedule)
+        1    0.000    0.000    0.000    0.000 socket.py:545(send)
+        2    0.000    0.000    0.000    0.000 {built-in method time.time}
+        1    0.000    0.000    0.000    0.000 threading.py:1192(is_alive)
+        2    0.000    0.000    0.000    0.000 iostream.py:437(_is_master_process)
+        1    0.000    0.000    0.000    0.000 threading.py:1125(_wait_for_tstate_lock)
+        2    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+        1    0.000    0.000    0.000    0.000 iostream.py:90(_event_pipe)
+        1    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 threading.py:575(is_set)
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+
+
